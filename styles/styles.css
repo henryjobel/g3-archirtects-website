@@ -97,6 +97,19 @@ main{
 .fe{
     color: orange;
 }
+/* fact-area */
+
+.facts-card-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.card{
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 30px;
+}
 
 
 /* responsive style */
@@ -117,7 +130,7 @@ main{
     }
     .teams-content{
         padding-right: 20px;
-        padding-left: 20px;
+        padding: 20px;
     }
 }
 
