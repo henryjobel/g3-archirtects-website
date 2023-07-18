@@ -83,3 +83,40 @@ nav a{
         padding: 50px;
     }
 }
+
+
+/* main stytles */
+main{
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
+.teams-container{
+    display: flex;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.teams-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+}
+
+.teams-content{
+    padding-right: 70px;
+    padding-left: 70px;
+}
+
+.teams-title{
+    font-size: 2.8rem;   
+}
+
+/* span list */
+.lis{
+    color: grey;
+    font-weight: 500px;
+}
+.fe{
+    color: orange;
+}
